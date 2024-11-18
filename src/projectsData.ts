@@ -6,6 +6,7 @@ interface Project
     description: string
     category: string
     technologies: string[]
+    linkName: string,
     link: string
 }
 
@@ -16,6 +17,7 @@ export const projects: Project[] = [
         description: "A modern shopping experience built with Next.js",
         category: "Web",
         technologies: ["Next.js", "TypeScript", "Tailwind"],
+        linkName: "figma",
         link: "https://example.com/ecommerce"
     },
     {
@@ -24,6 +26,7 @@ export const projects: Project[] = [
         description: "Secure banking application for iOS and Android",
         category: "Mobile",
         technologies: ["React Native", "Redux", "Node.js"],
+         linkName: "figma",
         link: "https://example.com/banking"
     },
     {
@@ -32,6 +35,7 @@ export const projects: Project[] = [
         description: "Real-time analytics visualization platform",
         category: "Analytics",
         technologies: ["D3.js", "Python", "AWS"],
+         linkName: "figma",
         link: "https://example.com/analytics"
     },
     {
@@ -40,6 +44,7 @@ export const projects: Project[] = [
         description: "Schedule and analyze social media posts",
         category: "Web",
         technologies: ["React", "GraphQL", "PostgreSQL"],
+         linkName: "figma",
         link: "https://example.com/social"
     },
     {
@@ -48,7 +53,8 @@ export const projects: Project[] = [
         description: "Track workouts and nutrition goals",
         category: "Mobile",
         technologies: ["Flutter", "Firebase", "TensorFlow"],
-        link: "https://example.com/fitness"
+         linkName: "docs",
+        link: "https://google.com"
     },
     {
         id: 6,
@@ -56,6 +62,7 @@ export const projects: Project[] = [
         description: "Enterprise reporting and analytics suite",
         category: "Analytics",
         technologies: ["Angular", "Python", "SQL"],
+         linkName: "website",
         link: "https://example.com/bi"
     }
 ]
