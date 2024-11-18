@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 
-import { projects } from '@/mockData'
+import { projects } from '@/projectsData'
 
 
 export default function ProjectCards()
@@ -34,10 +34,11 @@ export default function ProjectCards()
                         className="p-2 border rounded w-48"
                         aria-label="Filter projects by category"
                     >
-                        <option value="All">All Projects</option>
-                        <option value="Web">Web</option>
-                        <option value="Mobile">Mobile</option>
-                        <option value="Analytics">Analytics</option>
+                        <option value="All">All</option>
+                        <option value="Web">Products</option>
+                        <option value="Mobile">Web</option>
+                        <option value="Analytics">Design</option>
+                        <option value="Analytics">Case Studies</option>
                     </select>
                 </div>
 
@@ -78,7 +79,7 @@ export default function ProjectCards()
                                 rel="noopener noreferrer"
                                 aria-label={`View ${project.title} project details`}
                             >
-                                View Project →
+                                {project.linkName} →
                             </a>
                         </article>
                     ))}
