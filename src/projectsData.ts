@@ -24,45 +24,45 @@ export const projects: Project[] = [
         id: 2,
         title: "Mobile Banking App",
         description: "Secure banking application for iOS and Android",
-        category: "Mobile",
+        category: "UX",
         technologies: ["React Native", "Redux", "Node.js"],
-         linkName: "figma",
+        linkName: "figma",
         link: "https://example.com/banking"
     },
     {
         id: 3,
         title: "Data Analytics Dashboard",
         description: "Real-time analytics visualization platform",
-        category: "Analytics",
+        category: "Web",
         technologies: ["D3.js", "Python", "AWS"],
-         linkName: "figma",
+        linkName: "figma",
         link: "https://example.com/analytics"
     },
     {
         id: 4,
         title: "Social Media Manager",
         description: "Schedule and analyze social media posts",
-        category: "Web",
+        category: "UX",
         technologies: ["React", "GraphQL", "PostgreSQL"],
-         linkName: "figma",
+        linkName: "figma",
         link: "https://example.com/social"
     },
     {
         id: 5,
         title: "Fitness Tracking App",
         description: "Track workouts and nutrition goals",
-        category: "Mobile",
+        category: "Web",
         technologies: ["Flutter", "Firebase", "TensorFlow"],
-         linkName: "docs",
+        linkName: "docs",
         link: "https://google.com"
     },
     {
         id: 6,
         title: "Business Intelligence Tool",
         description: "Enterprise reporting and analytics suite",
-        category: "Analytics",
+        category: "UX",
         technologies: ["Angular", "Python", "SQL"],
-         linkName: "website",
+        linkName: "website",
         link: "https://example.com/bi"
     }
 ]
