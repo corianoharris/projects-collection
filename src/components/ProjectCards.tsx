@@ -17,7 +17,7 @@ export default function ProjectCards()
         <main className="min-h-screen flex flex-col items-center justify-center py-12 px-4">
             <div className="container max-w-7xl mx-auto">
                 <h1 className="text-3xl font-bold mb-8 text-center" tabIndex={0}>
-                    Project Portfolio
+                    Projects
                 </h1>
 
                 <div className="flex justify-center mb-8">
@@ -31,14 +31,14 @@ export default function ProjectCards()
                         className="p-2 border rounded w-48"
                         aria-label="Filter projects by category"
                     >
-                        <option value="All">All Projects</option>
+                        <option value="All">All</option>
                         <option value="Web">Web</option>
                         <option value="UX">UX/UI</option>
                     </select>
                 </div>
 
                 <div
-                    className="flex "
+                    className="flex justify-center flex-wrap gap-4"
                     role="list"
                     aria-label="Projects grid"
                 >
